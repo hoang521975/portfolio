@@ -1,3 +1,5 @@
+import cvImage from '@/assets/image_CV.jpg'
+
 export const portfolioData = {
   // Personal Information
   personal: {
@@ -7,7 +9,7 @@ export const portfolioData = {
     phone: '+84838258292',
     location: 'Can Tho, Vietnam',
     github: 'https://github.com/lhmq24',
-    image: '`${import.meta.env.BASE_URL}images/image_CV.jpg`',
+    image: cvImage
   },
 
   // Objective/About
