@@ -7,7 +7,7 @@ export const portfolioData = {
     phone: '+84838258292',
     location: 'Can Tho, Vietnam',
     github: 'https://github.com/lhmq24',
-    image: '/images/anh_CV.jpg',
+    image: '`${import.meta.env.BASE_URL}images/image_CV.jpg`',
   },
 
   // Objective/About
@@ -42,52 +42,40 @@ export const portfolioData = {
   ],
 
   // Projects
-projects: [
-  {
-    period: '05/2025 - 10/2025',
-    title: 'Longan Variant Classification Android App',
-    roles: ['Frontend Developer', 'Backend Developer'],
-    teamSize: 5,
-    description:
-      'An Android application for longan variant classification using Firebase services and on-device AI inference.',
-    technologies: [
-      'Java 21',
-      'Firebase',
-      'TensorFlow Lite',
-      'Firestore',
-      'Cloud Storage'
-    ],
-    highlights: [
-      'Implemented Firebase App Check, Authentication, Firestore, and Cloud Storage',
-      'Integrated on-device AI inference using TensorFlow Lite',
-      'Built classification history and user profile management',
-      'Deployed to Google Play (Closed Testing)'
-    ],
-    link: 'https://github.com/LeHoangMinhQuan/longan_variant_detect_app.git'
-  },
-  {
-    period: '02/2025 - 04/2025',
-    title: 'Coffee Shop Order App For Staff',
-    roles: ['Frontend Developer', 'Backend Developer'],
-    teamSize: 1,
-    description:
-      'An Android application designed for staff to manage orders and tables in a coffee shop.',
-    technologies: [
-      'Java 11',
-      'MySQL',
-      'Retrofit',
-      'JWT',
-      'Material Components'
-    ],
-    highlights: [
-      'Implemented JWT-based authentication',
-      'Built table management and order management features',
-      'Developed receipt review functionality',
-      'Designed UI using Material Components'
-    ],
-    link: 'https://github.com/lhmq24/Coffee_Order_App.git'
-  }
-],
+  projects: [
+    {
+      period: '05/2025 - 10/2025',
+      title: 'Longan Variant Classification Android App',
+      roles: ['Frontend Developer', 'Backend Developer'],
+      teamSize: 5,
+      description:
+        'An Android application for longan variant classification using Firebase services and on-device AI inference.',
+      technologies: ['Java 21', 'Firebase', 'TensorFlow Lite', 'Firestore', 'Cloud Storage'],
+      highlights: [
+        'Implemented Firebase App Check, Authentication, Firestore, and Cloud Storage',
+        'Integrated on-device AI inference using TensorFlow Lite',
+        'Built classification history and user profile management',
+        'Deployed to Google Play (Closed Testing)',
+      ],
+      link: 'https://github.com/LeHoangMinhQuan/longan_variant_detect_app.git',
+    },
+    {
+      period: '02/2025 - 04/2025',
+      title: 'Coffee Shop Order App For Staff',
+      roles: ['Frontend Developer', 'Backend Developer'],
+      teamSize: 1,
+      description:
+        'An Android application designed for staff to manage orders and tables in a coffee shop.',
+      technologies: ['Java 11', 'MySQL', 'Retrofit', 'JWT', 'Material Components'],
+      highlights: [
+        'Implemented JWT-based authentication',
+        'Built table management and order management features',
+        'Developed receipt review functionality',
+        'Designed UI using Material Components',
+      ],
+      link: 'https://github.com/lhmq24/Coffee_Order_App.git',
+    },
+  ],
 
   // Publications & Certifications
   publicationsAndCerts: [
@@ -96,7 +84,7 @@ projects: [
       title:
         'Longan Cultivar Identification from Leaves: A Benchmark of Efficient Backbones and Training Protocols',
       authors: 'Vi Duong-The et al.',
-      publisher: 'FTNCT\'08 Conference, Procedia Computer Science (Elsevier), 2025.',
+      publisher: "FTNCT'08 Conference, Procedia Computer Science (Elsevier), 2025.",
       year: '2025',
       status: 'Accepted',
       link: null,
@@ -116,7 +104,7 @@ projects: [
 
   // Other Skills
   otherSkills: {
-    languages: ['English (Intermediate)', 'Japanese (Basic)', 'Vietnamese (Native)' ],
+    languages: ['English (Intermediate)', 'Japanese (Basic)', 'Vietnamese (Native)'],
     soft: ['Team Working', 'Public Speaking', 'Technical Writing'],
     interests: ['Open Source Contribution'],
   },
