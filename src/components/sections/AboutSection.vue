@@ -3,7 +3,6 @@
     <h2 class="text-3xl font-bold text-slate-800 mb-2">
       {{ objective.title }}
     </h2>
-    <h1>Test workflow</h1>
     <div class="h-1 w-20 bg-blue-600 rounded mb-6"></div>
     
     <p class="text-lg text-slate-600 leading-relaxed mb-4 md:mb-8 pt-4 md:pt-8">
