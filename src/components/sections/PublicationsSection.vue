@@ -1,6 +1,6 @@
 <template>
   <section class="animate-fadeIn flex flex-col items-center justify-center">
-    <h2 class="text-3xl font-bold text-slate-800 mb-6">
+    <h2 class="text-3xl font-bold text-slate-800 mb-6 text-center">
       Publications & Certifications
     </h2>
     <div class="h-1 w-20 bg-blue-600 rounded my-6 "></div>
