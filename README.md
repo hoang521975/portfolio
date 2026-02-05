@@ -1,1 +1,1 @@
-[Link](https://lhmq24.github.io/portfolio/)
+# Link: [http://lhmquan.qzz.io/](http://lhmquan.qzz.io/).
